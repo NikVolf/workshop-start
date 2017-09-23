@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rust Workshop Home</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+  </head>
+  <body>
+    <script src="build/bundle.js"></script>
+    <div id="menu">
+      <a href="index.html">home (brain wallet)</a>
+      <b>math</a>
+    </div>
+    <div id="header">
+      <h1>Modular arithmetic playground</h1>
+    </div>
+    <div id="container">
+      <div>
+        <span>number N =</span>
+        <input id="sourceString" value="190336703473395182854426616575356495301">
+        <button id="run-math" type="button" disabled>Generate</button>
+      </div>
+      <div id="result-wrap">
+        <span id="result-hint">N<sup>1000000</sup><sub>mod 190336703473395182854426616575356495301</sub> =</span>
+        <span id="result"></span>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+body {
+    font-family: Courier New, Courier, monospace
+}
+
+#container {
+    text-align: center;
+}
+
+#container input, #container button {
+    padding: 5px;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+}
+
+#container input {
+    width: 400px;
+}
+
+#result-wrap {
+    margin-top: 10px;
+    border-top: 2px solid green;
+    padding: 15px;
+}
+
+#result-wrap #result {
+    text-decoration: underline;
+}
+
+#result-hint {
+    font-size: small;
+}

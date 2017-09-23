@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rust Workshop Home</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+  </head>
+  <body>
+    <script src="build/bundle.js"></script>
+    <div id="menu">
+      <b>home (brain wallet)</b>
+      <a href="math.html">math</a>
+    </div>
+    <div id="header">
+      <h1>Brain wallet playground</h1>
+    </div>
+    <div id="container">
+      <div>
+        <span>string: </span>
+        <input id="sourceString" value="deuce clown universe brain thousand unique">
+        <button id="run-keccak" type="button" disabled>Generate</button>
+      </div>
+      <div id="result-wrap">
+        <span id="result-hint">10001 rounds of keccak-256: </span>
+        <span id="result"></span>
+      </div>
+    </div>
+  </body>
+</html>

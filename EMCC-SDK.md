@@ -20,6 +20,8 @@ Windows
 
 ## Install SDK
 
+### Linux/Mac
+
 ```
  cd ~
  wget https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-portable.tar.gz
@@ -28,3 +30,8 @@ Windows
  ./emsdk update
  ./emsdk install sdk-incoming-64bit
 ```
+
+### Windows
+
+use instruction:
+https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html#platform-notes-installation-instructions-sdk

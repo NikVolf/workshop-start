@@ -67,8 +67,6 @@ then manually the following into the path:
 
 c:\emcc\clang\e1.37.21_64bit;c:\emcc;c:\emcc\python\2.7.5.3_64bit;c:\emcc\java\7.45_64bit\bin;c:\emcc\emscripten\1.37.21
 
-also add EMCRIPTEN global variable to c:\emcc\emscripten\1.37.21
-
 also edit c:\emcc\emscripten\1.37.21\emcc.bat so it contains only:
 
 ```

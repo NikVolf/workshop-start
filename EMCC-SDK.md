@@ -58,3 +58,20 @@ Copyright (C) 2014 the Emscripten authors (see AUTHORS.txt)
 This is free and open source software under the MIT license.
 There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
+
+Also install latest node-js from https://nodejs.org/en/ using the installer
+
+better to use node-js console after that
+
+then manually the following into the path:
+
+c:\emcc\clang\e1.37.21_64bit;c:\emcc;c:\emcc\python\2.7.5.3_64bit;c:\emcc\java\7.45_64bit\bin;c:\emcc\emscripten\1.37.21
+
+also add EMCRIPTEN global variable to c:\emcc\emscripten\1.37.21
+
+also edit c:\emcc\emscripten\1.37.21\emcc.bat so it contains only:
+
+```
+@echo off 
+python "c:\emcc\emscripten\1.37.21\emcc.py" %*
+```

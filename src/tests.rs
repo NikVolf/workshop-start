@@ -56,5 +56,5 @@ fn modexp_2() {
 
     let result = U256::from_little_endian(&dest_param);
 
-    assert_eq!(result, U256::from_dec_str("129511937775246815794430130115251170553").unwrap());
+    assert_eq!(result, U256::from_dec_str("99362129742742345768366654789433164984").unwrap());
 }
